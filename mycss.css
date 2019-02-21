@@ -1,0 +1,54 @@
+body{
+background-color:linen;
+background-image:url("images.jpeg");
+background-repeat:repeat-y;
+background-position:top right;
+}
+p{
+color:red;
+padding:50px;
+font-variant:small-caps;
+font-style:italic;
+}
+h1{
+color:red;
+background-color:lightblue;
+margin:50px 25px 50px 25px;
+width:50%;
+font-variant:small-caps;
+font-size:3em;
+}
+#para1{
+color:blue;
+border:4px dotted red;
+}
+p.colortext{
+color:green;
+border:10px solid green;
+}
+div{
+width:200px;
+border:25px solid navy;
+}
+a.redtext:link{
+color:red;
+background-color:lightblue;
+text-decoration:none;
+}
+a.bluetext:visited{
+color:blue;
+text-decoration:none;
+background-color:lightblue;
+}
+a.largesize:hover{
+color:green;
+background-color:yellow;
+text-decoration:none;
+font-size:50px;
+}
+a.act:active{
+color:blue;
+background-color:yellow;
+text-decoration:none;
+}
+
