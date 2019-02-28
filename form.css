@@ -1,0 +1,14 @@
+body{
+background-color:linen;
+background-image:url("images.jpeg");
+background-repeat:repeat-y;
+background-position:top right;
+animation-name:example;
+animation-duration: 13s;
+animation-iteration-count:infinite;
+}
+@keyframes example {
+from {background-color: cyan;}
+to {background-color: purple;}
+}
+
